@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   Global Base Styles
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-[#121212] text-[#E5E7EB] antialiased;
+  font-feature-settings: "liga" 1, "kern" 1;
+}
+
+/* =========================
+   Typography Improvements
+   ========================= */
+
+h1, h2, h3, h4, h5, h6 {
+  @apply text-white tracking-tight;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+/* =========================
+   Selection Color (Modern Touch)
+   ========================= */
+
+::selection {
+  background-color: rgba(133, 76, 230, 0.35);
+  color: #ffffff;
+}
+
+/* =========================
+   Scrollbar Styling (Modern)
+   ========================= */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(133, 76, 230, 0.6);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(133, 76, 230, 0.9);
+}
+
+/* =========================
+   Utility Enhancements
+   ========================= */
+
+/* Soft container padding for sections */
+.section {
+  @apply max-w-7xl mx-auto px-4 sm:px-8;
+}
+
+/* Smooth hover transitions globally */
+a, button {
+  transition: all 0.25s ease;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
