@@ -47,7 +47,7 @@ const projectsData = [
     image: "/images/projects/photofolio.png",
     tag: ["All", "Frontend"],
     tech: ["React", "Firebase", "Cloud Storage"],
-    gitUrl: "https://github.com/shubham1579/Photo-Folio",
+    gitUrl: "https://github.com/Celestrav01/Photo_pholio",
     previewUrl: "https://photo-folio-two.vercel.app/",
   },
   {
@@ -58,7 +58,7 @@ const projectsData = [
     image: "/images/projects/react-chat.png",
     tag: ["All", "Frontend"],
     tech: ["React", "Firebase", "Realtime DB"],
-    gitUrl: "https://github.com/shubham1579/react-firebase-chat",
+    gitUrl: "https://github.com/Celestrav01/chat-app-firebase",
     previewUrl: "https://react-firebase-chat-opal.vercel.app/",
   },
   {
@@ -69,7 +69,7 @@ const projectsData = [
     image: "/images/projects/habit-tracker.png",
     tag: ["All", "Frontend"],
     tech: ["React", "Firebase", "Auth"],
-    gitUrl: "https://github.com/shubham1579/React-habit",
+    gitUrl: "https://github.com/Celestrav01/react-habit-tracker",
     previewUrl: "https://react-habit.vercel.app/",
   },
 ];
