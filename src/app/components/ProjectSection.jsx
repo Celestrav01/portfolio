@@ -30,15 +30,26 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "BusyBuy",
+    title: "Social-Media Marketplace",
     description:
-      "Frontend ecommerce app with cart, filters, and authentication.",
-    image: "/images/projects/busy-buy.png",
-    tag: ["All", "Frontend"],
-    tech: ["React", "Context API", "Firebase"],
-    gitUrl: "https://github.com/Celestrav01/BusyBuy",
-    previewUrl: "https://busy-buy-ten.vercel.app/",
+      "Full-stack social media marketplace where users can list, buy, sell, and exchange digital accounts with secure authentication and real-time interactions.",
+    image: "/images/projects/Flipearn_pro.png",
+    tag: ["All", "PERN"],
+    tech: ["React", "Node.js", "PostgreSQL", "Express.js"],
+    gitUrl: "https://github.com/Celestrav01/flipearn",
+    previewUrl: "https://flipearn-56cj.vercel.app",
   },
+  // {
+  //   id: 3,
+  //   title: "BusyBuy",
+  //   description:
+  //     "Frontend ecommerce app with cart, filters, and authentication.",
+  //   image: "/images/projects/busy-buy.png",
+  //   tag: ["All", "Frontend"],
+  //   tech: ["React", "Context API", "Firebase"],
+  //   gitUrl: "https://github.com/Celestrav01/BusyBuy",
+  //   previewUrl: "https://busy-buy-ten.vercel.app/",
+  // },
   {
     id: 4,
     title: "Photo Storing Application",

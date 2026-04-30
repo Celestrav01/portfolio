@@ -95,3 +95,7 @@ a, button {
 .social-icon.invert img {
   filter: invert(1);
 }
+
+html {
+  scroll-behavior: smooth;
+}
