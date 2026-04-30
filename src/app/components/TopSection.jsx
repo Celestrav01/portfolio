@@ -46,7 +46,7 @@ const TopSection = () => {
                             <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white'>Hire Me</button>
                         </ScrollLink>
                         <Link
-                            href={'https://drive.google.com/file/d/1vD8_3BQgBeNbO-u0JWlO3tSINfWisfyw/view?usp=drive_link'}
+                            href={'https://drive.google.com/file/d/1vD8_3BQgBeNbO-u0JWlO3tSINfWisfyw/view'}
                             target='_blank'
                             rel='noopener noreferrer'
                         >
