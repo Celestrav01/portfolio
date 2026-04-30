@@ -8,15 +8,26 @@ import { motion } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "MERN Ecommerce Website",
+    title: "Bird-Species Identification",
     description:
-      "Full-stack ecommerce platform with authentication, product management, and secure checkout.",
-    image: "/images/projects/mern-ecommerce.png",
-    tag: ["All", "Mern"],
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    gitUrl: "https://github.com/Celestrav01/E-COMMERCE",
-    previewUrl: "https://mern-ecommerce-backend-sand.vercel.app/",
+      "Machine learning project that identifies bird species from images using a CNN model, with data preprocessing, model training, and prediction pipeline.",
+    image: "/images/projects/Bird.png",
+    tag: ["All", "Machine Learning"],
+    tech: ["Python", "TensorFlow", "Keras", "CNN", "NumPy", "Pandas"],
+    gitUrl: "https://github.com/Celestrav01/Bird_species_identification",
+    previewUrl: "https://birdidentificationsystem.streamlit.app",
   },
+  // {
+  //   id: 1,
+  //   title: "MERN Ecommerce Website",
+  //   description:
+  //     "Full-stack ecommerce platform with authentication, product management, and secure checkout.",
+  //   image: "/images/projects/mern-ecommerce.png",
+  //   tag: ["All", "Mern"],
+  //   tech: ["React", "Node.js", "Express", "MongoDB"],
+  //   gitUrl: "https://github.com/Celestrav01/E-COMMERCE",
+  //   previewUrl: "https://mern-ecommerce-backend-sand.vercel.app/",
+  // },
   {
     id: 2,
     title: "Movie Ticket Booking WebApp",
@@ -52,14 +63,14 @@ const projectsData = [
   // },
   {
     id: 4,
-    title: "Photo Storing Application",
+    title: "MERN Ecommerce Website",
     description:
-      "Cloud-based photo storage app with upload and album management.",
-    image: "/images/projects/photofolio.png",
-    tag: ["All", "Frontend"],
-    tech: ["React", "Firebase", "Cloud Storage"],
-    gitUrl: "https://github.com/Celestrav01/Photo_pholio",
-    previewUrl: "https://photo-folio-two.vercel.app/",
+      "Full-stack ecommerce platform with authentication, product management, and secure checkout.",
+    image: "/images/projects/mern-ecommerce.png",
+    tag: ["All", "Mern"],
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    gitUrl: "https://github.com/Celestrav01/E-COMMERCE",
+    previewUrl: "https://mern-ecommerce-backend-sand.vercel.app/",
   },
   {
     id: 5,
@@ -72,16 +83,16 @@ const projectsData = [
     gitUrl: "https://github.com/Celestrav01/chat-app-firebase",
     previewUrl: "https://react-firebase-chat-opal.vercel.app/",
   },
-  {
+   {
     id: 6,
-    title: "React Habit Tracker",
+    title: "BusyBuy",
     description:
-      "Habit tracking app with CRUD operations and authentication.",
-    image: "/images/projects/habit-tracker.png",
+      "Frontend ecommerce app with cart, filters, and authentication.",
+    image: "/images/projects/busy-buy.png",
     tag: ["All", "Frontend"],
-    tech: ["React", "Firebase", "Auth"],
-    gitUrl: "https://github.com/Celestrav01/react-habit-tracker",
-    previewUrl: "https://react-habit.vercel.app/",
+    tech: ["React", "Context API", "Firebase"],
+    gitUrl: "https://github.com/Celestrav01/BusyBuy",
+    previewUrl: "https://busy-buy-ten.vercel.app/",
   },
 ];
 
